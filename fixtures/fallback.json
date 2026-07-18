@@ -1,0 +1,81 @@
+{
+  "findings": [
+    {
+      "current_drug_context": "Type 2 diabetes (12 yrs) managed on metformin and gliclazide (a sulfonylurea). Established cardiovascular disease and chronic kidney disease. No SGLT2 inhibitor prescribed. Last medication review 2019.",
+      "drift": "Margaret has established cardiovascular disease AND chronic kidney disease but is not on an SGLT2 inhibitor. Current guidance recommends one for cardiorenal protection, independent of blood-sugar control. Her regimen predates that guidance and has not been revisited since 2019.",
+      "guideline_id": "t2d-sglt2-cardiorenal",
+      "guideline_changed": "2023",
+      "eligibility": {
+        "meets_criteria": true,
+        "reasoning": "Type 2 diabetes with established CVD and CKD — both qualifying indications. eGFR is 46 mL/min/1.73m², above the initiation threshold. The indication is independent of glycaemic control, so HbA1c 58 mmol/mol does not change eligibility."
+      },
+      "contraindication_check": {
+        "clear": true,
+        "notes": "No documented SGLT2-inhibitor hypersensitivity. No history of recurrent genital or urinary infection on record. Not on insulin, so DKA risk is low. eGFR 46 is above the initiation threshold. No contraindication identified."
+      },
+      "prescribing_checklist": [
+        {
+          "key": "eligibility",
+          "title": "Eligibility",
+          "items": [
+            { "label": "Established CVD", "detail": "On record as a qualifying indication.", "status": "clear" },
+            { "label": "Chronic kidney disease", "detail": "On record as a qualifying indication.", "status": "clear" },
+            { "label": "eGFR 46 vs initiation threshold", "detail": "Above the threshold for initiation.", "status": "clear" },
+            { "label": "Diagnosis codes present", "detail": "Type 2 diabetes, CVD and CKD all coded in the record.", "status": "clear" }
+          ]
+        },
+        {
+          "key": "caveat",
+          "title": "Glucose caveat",
+          "items": [
+            { "label": "Glucose-lowering effect is modest at this eGFR", "detail": "Below eGFR ~45 the glucose-lowering effect falls away — but initiation here is for cardiorenal protection, not glycaemic control, so this is not a reason to withhold.", "status": "info" }
+          ]
+        },
+        {
+          "key": "cautions",
+          "title": "Cautions",
+          "items": [
+            { "label": "Volume status / diuretics", "detail": "Not on a high-dose diuretic; low hypotension risk on initiation.", "status": "clear" },
+            { "label": "Type 1 diabetes / DKA risk", "detail": "Type 2 diabetes, not on insulin — euglycaemic DKA risk is low.", "status": "clear" },
+            { "label": "Frailty / age 68", "detail": "No frailty flags on record; counsel on sick-day rules as below.", "status": "caution" }
+          ]
+        },
+        {
+          "key": "interactions",
+          "title": "Interactions",
+          "items": [
+            { "label": "Sulfonylurea (gliclazide) — hypo risk", "detail": "Adding an SGLT2 inhibitor can increase hypoglycaemia risk; consider reducing the gliclazide dose.", "status": "caution" },
+            { "label": "Metformin", "detail": "No clinically significant interaction; continue.", "status": "clear" }
+          ]
+        },
+        {
+          "key": "counselling",
+          "title": "Counselling",
+          "items": [
+            { "label": "Sick-day rules", "detail": "Pause during acute dehydrating illness; restart when eating and drinking normally.", "status": "info" },
+            { "label": "Euglycaemic DKA warning", "detail": "Seek help for nausea, vomiting or breathlessness even if blood sugars look normal.", "status": "info" },
+            { "label": "Genital/urinary hygiene", "detail": "Advise on hygiene and to report symptoms of infection.", "status": "info" },
+            { "label": "Fournier's gangrene safety-net", "detail": "Rare; safety-net for severe genital pain, swelling or redness with fever.", "status": "info" }
+          ]
+        },
+        {
+          "key": "monitoring",
+          "title": "Monitoring · anti-inertia",
+          "items": [
+            { "label": "Expected early eGFR dip is NOT a reason to stop", "detail": "A small initial fall in eGFR is expected and reversible — do not discontinue for it.", "status": "info" },
+            { "label": "No routine post-initiation renal/potassium monitoring required", "detail": "Over-monitoring is a barrier, not a safeguard; routine bloods are not needed for this indication.", "status": "info" }
+          ]
+        }
+      ],
+      "recommended_action": "Initiate an SGLT2 inhibitor for cardiorenal protection alongside current therapy. Consider reducing the sulfonylurea dose. Counsel on sick-day rules and genital hygiene.",
+      "patient_explanation": "The guidance for people with your combination of diabetes, heart, and kidney history has been updated. There is now a type of tablet that helps protect your heart and kidneys, on top of managing blood sugar — and you are not currently taking it. This is common, and it is not an emergency.",
+      "patient_offer": "Your prescriber has reviewed your records and thinks a once-daily tablet that helps protect your heart and kidneys could be right for you. It works alongside your current medicines. It's your choice — here's what it does and what to look out for, and you can decide together with your prescriber.",
+      "structured_questions": [
+        "In the last few months, have you had frequent thrush or urinary infections?",
+        "Do you ever get lightheaded or dizzy when you stand up?"
+      ],
+      "clinician_summary": "68F, T2DM + established CVD + CKD (eGFR 46), on metformin + sulfonylurea, no SGLT2i. Meets 2023 cardiorenal indication; eGFR above initiation threshold; no contraindication. Consider dose-reducing sulfonylurea. Pack ready to sign.",
+      "draft_prescription": "Dapagliflozin 10 mg orally once daily. Reduce gliclazide dose and review hypo risk. Counsel on sick-day rules. No routine renal/potassium recheck required for this indication."
+    }
+  ]
+}

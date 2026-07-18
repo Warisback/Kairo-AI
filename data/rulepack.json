@@ -1,0 +1,30 @@
+{
+  "old": [
+    {
+      "id": "t2d-baseline",
+      "updated": "2019",
+      "confirmed": false,
+      "text": "Metformin is first-line for type 2 diabetes. Intensify with a sulfonylurea if HbA1c remains above target."
+    }
+  ],
+  "new": [
+    {
+      "id": "t2d-baseline",
+      "updated": "2019",
+      "confirmed": false,
+      "text": "Metformin is first-line for type 2 diabetes. Intensify with a sulfonylurea if HbA1c remains above target."
+    },
+    {
+      "id": "t2d-sglt2-cardiorenal",
+      "updated": "2023",
+      "confirmed": false,
+      "text": "In adults with type 2 diabetes and established cardiovascular disease OR chronic kidney disease, an SGLT2 inhibitor is recommended for cardiorenal protection, independent of glycaemic control, provided eGFR is above the initiation threshold and no contraindication is present."
+    },
+    {
+      "id": "t2d-sglt2-firstline-2026",
+      "updated": "2026",
+      "confirmed": false,
+      "text": "Most people newly diagnosed with type 2 diabetes should be offered an SGLT2 inhibitor alongside metformin as initial treatment."
+    }
+  ]
+}

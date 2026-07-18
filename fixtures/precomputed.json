@@ -1,0 +1,55 @@
+{
+  "p01": { "findings": [] },
+  "p02": { "findings": [] },
+  "p03": { "findings": [] },
+  "p04": { "findings": [] },
+  "p05": {
+    "findings": [
+      {
+        "current_drug_context": "Type 2 diabetes (11 yrs) with chronic kidney disease, on metformin and gliclazide (a sulfonylurea). No SGLT2 inhibitor. Last medication review 2020.",
+        "drift": "Chronic kidney disease qualifies for SGLT2-inhibitor cardiorenal protection under current guidance, but Tomasz is not on one.",
+        "guideline_id": "t2d-sglt2-cardiorenal",
+        "guideline_changed": "2023",
+        "eligibility": {
+          "meets_criteria": true,
+          "reasoning": "Type 2 diabetes with CKD. eGFR 51 mL/min/1.73m² is above the initiation threshold. Indication is independent of glycaemic control."
+        },
+        "contraindication_check": {
+          "clear": true,
+          "notes": "No SGLT2 hypersensitivity, no recurrent genital/urinary infection on record, not insulin-dependent. eGFR above initiation threshold. No contraindication identified."
+        },
+        "recommended_action": "Initiate an SGLT2 inhibitor for renal protection alongside current therapy; counsel on sick-day rules.",
+        "patient_explanation": "Guidance for people with your kidney and diabetes history has changed. There is a tablet that helps protect your kidneys, and you are not on it yet. It is common and not urgent — worth a review with your GP.",
+        "clinician_summary": "66M, T2DM + CKD (eGFR 51), on metformin + sulfonylurea, no SGLT2i. Meets 2023 renal indication; no contraindication. Consider SGLT2i.",
+        "draft_prescription": "Dapagliflozin 10 mg orally once daily. Review renal function in 4–6 weeks."
+      }
+    ]
+  },
+  "p06": { "findings": [] },
+  "p08": { "findings": [] },
+  "p09": {
+    "findings": [
+      {
+        "current_drug_context": "Type 2 diabetes (7 yrs) with established cardiovascular disease, on metformin and sitagliptin (a DPP-4 inhibitor). No SGLT2 inhibitor. Last medication review 2021.",
+        "drift": "Established cardiovascular disease qualifies for SGLT2-inhibitor cardiorenal protection under current guidance, but Sofia is on a DPP-4 inhibitor instead.",
+        "guideline_id": "t2d-sglt2-cardiorenal",
+        "guideline_changed": "2023",
+        "eligibility": {
+          "meets_criteria": true,
+          "reasoning": "Type 2 diabetes with established CVD. eGFR 72 mL/min/1.73m² is well above the initiation threshold. Indication is independent of glycaemic control."
+        },
+        "contraindication_check": {
+          "clear": true,
+          "notes": "No SGLT2 hypersensitivity, no recurrent genital/urinary infection on record, not insulin-dependent. eGFR well above initiation threshold. No contraindication identified."
+        },
+        "recommended_action": "Add an SGLT2 inhibitor for cardiovascular protection; review whether the DPP-4 inhibitor is still needed.",
+        "patient_explanation": "The guidance for people with your heart and diabetes history has been updated. There is a tablet that helps protect your heart, and you are not on it yet. This is common and not an emergency — worth a quick review with your GP.",
+        "clinician_summary": "61F, T2DM + established CVD (eGFR 72), on metformin + DPP-4i, no SGLT2i. Meets 2023 cardiovascular indication; no contraindication. Consider SGLT2i; review DPP-4i.",
+        "draft_prescription": "Dapagliflozin 10 mg orally once daily. Reassess ongoing need for sitagliptin at next review."
+      }
+    ]
+  },
+  "p10": { "findings": [] },
+  "p11": { "findings": [] },
+  "p12": { "findings": [] }
+}

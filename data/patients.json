@@ -1,0 +1,169 @@
+[
+  {
+    "id": "p01",
+    "name": "Arthur Bell",
+    "age": 71,
+    "conditions": ["Hypertension", "Osteoarthritis"],
+    "medications": [
+      { "drug": "Amlodipine", "since": "2016", "confirmed": false },
+      { "drug": "Paracetamol", "since": "2018", "confirmed": false }
+    ],
+    "labs": { "eGFR": 78, "HbA1c_mmol_mol": 38 },
+    "last_medication_review": "2023",
+    "confirmed": false
+  },
+  {
+    "id": "p02",
+    "name": "Priya Nair",
+    "age": 54,
+    "conditions": ["Type 2 diabetes (3 yrs)"],
+    "medications": [
+      { "drug": "Metformin", "since": "2022", "confirmed": false }
+    ],
+    "labs": { "eGFR": 92, "HbA1c_mmol_mol": 49 },
+    "last_medication_review": "2024",
+    "confirmed": false
+  },
+  {
+    "id": "p03",
+    "name": "Derek Osei",
+    "age": 63,
+    "conditions": [
+      "Type 2 diabetes (9 yrs)",
+      "Established cardiovascular disease"
+    ],
+    "medications": [
+      { "drug": "Metformin", "since": "2016", "confirmed": false },
+      { "drug": "Empagliflozin (SGLT2 inhibitor)", "since": "2023", "confirmed": false },
+      { "drug": "Atorvastatin", "since": "2016", "confirmed": false }
+    ],
+    "labs": { "eGFR": 68, "HbA1c_mmol_mol": 52 },
+    "last_medication_review": "2024",
+    "confirmed": false
+  },
+  {
+    "id": "p04",
+    "name": "Eleanor Whitmore",
+    "age": 59,
+    "conditions": ["Hypothyroidism"],
+    "medications": [
+      { "drug": "Levothyroxine", "since": "2011", "confirmed": false }
+    ],
+    "labs": { "eGFR": 85, "TSH_mIU_L": 2.1 },
+    "last_medication_review": "2024",
+    "confirmed": false
+  },
+  {
+    "id": "p05",
+    "name": "Tomasz Kowalski",
+    "age": 66,
+    "conditions": [
+      "Type 2 diabetes (11 yrs)",
+      "Chronic kidney disease"
+    ],
+    "medications": [
+      { "drug": "Metformin", "since": "2014", "confirmed": false },
+      { "drug": "Gliclazide (sulfonylurea)", "since": "2020", "confirmed": false }
+    ],
+    "labs": { "eGFR": 51, "HbA1c_mmol_mol": 60 },
+    "last_medication_review": "2020",
+    "confirmed": false
+  },
+  {
+    "id": "p06",
+    "name": "Grace Adeyemi",
+    "age": 47,
+    "conditions": ["Asthma"],
+    "medications": [
+      { "drug": "Salbutamol inhaler", "since": "2009", "confirmed": false },
+      { "drug": "Beclometasone inhaler", "since": "2015", "confirmed": false }
+    ],
+    "labs": { "eGFR": 96 },
+    "last_medication_review": "2025",
+    "confirmed": false
+  },
+  {
+    "id": "p07",
+    "hero": true,
+    "name": "Margaret",
+    "age": 68,
+    "conditions": [
+      "Type 2 diabetes (12 yrs)",
+      "Chronic kidney disease",
+      "Established cardiovascular disease"
+    ],
+    "medications": [
+      { "drug": "Metformin", "since": "2015", "confirmed": false },
+      { "drug": "Gliclazide (sulfonylurea)", "since": "2019", "confirmed": false }
+    ],
+    "labs": { "eGFR": 46, "HbA1c_mmol_mol": 58 },
+    "last_medication_review": "2019",
+    "confirmed": false
+  },
+  {
+    "id": "p08",
+    "name": "Raymond Clarke",
+    "age": 74,
+    "conditions": ["Atrial fibrillation", "Hypertension"],
+    "medications": [
+      { "drug": "Apixaban", "since": "2021", "confirmed": false },
+      { "drug": "Bisoprolol", "since": "2019", "confirmed": false }
+    ],
+    "labs": { "eGFR": 64 },
+    "last_medication_review": "2024",
+    "confirmed": false
+  },
+  {
+    "id": "p09",
+    "name": "Sofia Marchetti",
+    "age": 61,
+    "conditions": [
+      "Type 2 diabetes (7 yrs)",
+      "Established cardiovascular disease"
+    ],
+    "medications": [
+      { "drug": "Metformin", "since": "2018", "confirmed": false },
+      { "drug": "Sitagliptin (DPP-4 inhibitor)", "since": "2021", "confirmed": false }
+    ],
+    "labs": { "eGFR": 72, "HbA1c_mmol_mol": 55 },
+    "last_medication_review": "2021",
+    "confirmed": false
+  },
+  {
+    "id": "p10",
+    "name": "Henry Dawson",
+    "age": 58,
+    "conditions": ["Depression"],
+    "medications": [
+      { "drug": "Sertraline", "since": "2022", "confirmed": false }
+    ],
+    "labs": { "eGFR": 88 },
+    "last_medication_review": "2024",
+    "confirmed": false
+  },
+  {
+    "id": "p11",
+    "name": "Beatrice Lund",
+    "age": 69,
+    "conditions": ["Type 2 diabetes (5 yrs)", "Hypertension"],
+    "medications": [
+      { "drug": "Metformin", "since": "2020", "confirmed": false },
+      { "drug": "Ramipril", "since": "2019", "confirmed": false }
+    ],
+    "labs": { "eGFR": 80, "HbA1c_mmol_mol": 47 },
+    "last_medication_review": "2025",
+    "confirmed": false
+  },
+  {
+    "id": "p12",
+    "name": "Callum Fraser",
+    "age": 52,
+    "conditions": ["Gastro-oesophageal reflux"],
+    "medications": [
+      { "drug": "Omeprazole", "since": "2017", "confirmed": false }
+    ],
+    "labs": { "eGFR": 94 },
+    "last_medication_review": "2023",
+    "confirmed": false
+  }
+]
